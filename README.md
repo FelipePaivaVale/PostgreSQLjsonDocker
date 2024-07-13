@@ -1,5 +1,3 @@
-# PostgreSQLjsonDocker
-
 Documentação do CRUD Gerenciador de
 Usuários
 Este documento descreve as funcionalidades e os procedimentos disponíveis no
