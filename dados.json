@@ -1,0 +1,62 @@
+[
+    {
+        "nome": "Murilo Macedo",
+        "telefone": "+55 21 5340-4345",
+        "endereco": "Distrito de Dias, 6\nConjunto Lagoa\n21348-001 Melo de Peixoto / RR",
+        "data_nascimento": "1938-03-09"
+    },
+    {
+        "nome": "Lara Siqueira",
+        "telefone": "+55 (084) 0983 3101",
+        "endereco": "Conjunto de Rezende, 6\nLorena\n83668267 Viana de Novais / ES",
+        "data_nascimento": "1968-06-13"
+    },
+    {
+        "nome": "Davi Machado",
+        "telefone": "0500 285 2716",
+        "endereco": "Área de Fogaça, 464\nMarieta 1ª Seção\n39765933 Rocha / RO",
+        "data_nascimento": "1986-12-27"
+    },
+    {
+        "nome": "Danilo Dias",
+        "telefone": "+55 11 6660 1654",
+        "endereco": "Pátio de Sousa, 83\nSion\n49562-897 Azevedo / CE",
+        "data_nascimento": "2003-12-03"
+    },
+    {
+        "nome": "Larissa da Cunha",
+        "telefone": "(011) 4112-6515",
+        "endereco": "Estrada da Mota, 10\nBairro Das Indústrias Ii\n76550807 Pimenta da Serra / GO",
+        "data_nascimento": "1966-06-03"
+    },
+    {
+        "nome": "Maysa Viana",
+        "telefone": "21 9346 6386",
+        "endereco": "Lagoa de Dias, 738\nGuarani\n47621-671 Oliveira Alegre / PB",
+        "data_nascimento": "1955-10-22"
+    },
+    {
+        "nome": "Vitor Hugo Silva",
+        "telefone": "(021) 0544 7666",
+        "endereco": "Vereda Cavalcante, 4\nSanta Amelia\n19450-799 Novaes do Sul / MT",
+        "data_nascimento": "1978-02-09"
+    },
+{
+        "nome": "Gustavo Campos",
+        "telefone": "(021) 3874-2707",
+        "endereco": "Núcleo Rodrigues, 1\nVila Jardim Montanhes\n73781-979 Cardoso da Prata / PA",
+        "data_nascimento": "1999-09-20"
+    },
+    {
+        "nome": "Sr. Benjamim Barros",
+        "telefone": "0300 028 4430",
+        "endereco": "Trecho Ana Julia Campos, 58\nDom Joaquim\n25773506 Gomes de Andrade / CE",
+        "data_nascimento": "1948-12-20"
+    },
+    {
+        "nome": "Calebe Martins",
+        "telefone": "0900 264 9208",
+        "endereco": "Condomínio João Gabriel Guerra\nBonfim\n65183-249 Cardoso / BA",
+        "data_nascimento": "1991-01-08"
+    }
+]
