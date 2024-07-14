@@ -1,3 +1,43 @@
+![image](https://github.com/user-attachments/assets/a560a344-8292-4478-ac54-4e06ea7d05f0)## Como inserir / Rodar o banco de dados em Docker. (Pedimos Desculpas se foi da maneira errada, mas foi a maneira que encontramos para que fosse clara e de fácil compreensão).
+
+1. Instalar o docker na máquina (Utilizamos o Windows para tudo, então aqui o ideal é baixar o Docker Desktop).
+2. Verificar a instalação do Docker na máquina.
+```bash
+Docker -v
+```
+3. Instalar um container de network para servir como suporte para rodar o PGADMIN4, facilitando assim a interface gráfica para qualquer usuário.
+```bash
+docker network create --driver bridge my-network
+```
+4. Criar agora o container com a imagem do PostgreSQL, utilizando também a network para integrar um container ao outro.
+```bash
+docker run --name my-postgres --network=my-network -p 5433:5432 -e POSTGRES_PASSWORD=postgres -d postgres
+```
+
+5. Checar se foi criado após a criação do container com a imagem do PostgreSQL
+```bash
+docker inspect my-network   
+```
+6. Rodar a integração dos 2 container, o do PGADMIN4 com a da imagem do PostgreSQL e seus acessos.
+```bash
+docker run --name my-pgadmin --network=my-network -p 15432:80 -e PGADMIN_DEFAULT_EMAIL=emaildefault@gmail.com -e PGADMIN_DEFAULT_PASSWORD=postgres -d dpage/pgadmin4
+```
+
+7. Após isso, basta acessar no seu navegador com o seguinte endereço: <b> http://localhost:15432/ </b>
+
+![image](https://github.com/user-attachments/assets/a3a3d75c-0b8f-4570-a374-a96af37698b1)
+
+
+
+
+
+
+
+
+
+
+
+
 ## Documentação do CRUD Gerenciador de Usuários
 
 Este documento descreve as funcionalidades e os procedimentos disponíveis no
