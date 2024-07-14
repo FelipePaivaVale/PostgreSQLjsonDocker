@@ -51,7 +51,7 @@ docker run --name my-pgadmin --network=my-network -p 15432:80 -e PGADMIN_DEFAULT
 
 ![image](https://github.com/user-attachments/assets/3c6b603b-8864-40d8-b72a-b265b1319d1f)
 
-14. Abrirá essa tela, clique no ícone de arquivo para abrir a tela e inserir o arquivo <b> JsonGerador.sql </b>. Recomendamos que baixe o arquivo através do disponibilizado no Github.
+14. Abrirá essa tela, clique no ícone de arquivo para abrir a tela e inserir o arquivo <b> JsonGerador.sql </b>. Recomendamos que baixe o arquivo através desse link de um Drive (Infelizmente o Github não libera upload de arquivos grandes),  https://drive.google.com/file/d/1Pu5CH9S8h98Hl4I6fCvYuKkteOtDrYY2/view?usp=sharing.
 
 ![image](https://github.com/user-attachments/assets/090bca0b-6d6f-4010-8a1d-d6d0001d59d1)
 
