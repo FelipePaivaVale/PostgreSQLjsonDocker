@@ -68,7 +68,10 @@ docker run --name my-pgadmin --network=my-network -p 15432:80 -e PGADMIN_DEFAULT
 
 ![Captura de tela 2024-07-13 221439](https://github.com/user-attachments/assets/b0c462f3-a253-464c-91de-4f79dfec87de)
 
-19. Agora é só utilizar das nossas funções de seleção descrito abaixo!
+18. Agora é só utilizar das nossas funções de seleção descrito abaixo!
+
+
+
 
 
 ## Documentação do CRUD Gerenciador de Usuários
