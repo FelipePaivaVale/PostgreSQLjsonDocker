@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a560a344-8292-4478-ac54-4e06ea7d05f0)## Como inserir / Rodar o banco de dados em Docker. (Pedimos Desculpas se foi da maneira errada, mas foi a maneira que encontramos para que fosse clara e de fácil compreensão).
+## Como inserir / Rodar o banco de dados em Docker. (Pedimos Desculpas se foi da maneira errada, mas foi a maneira que encontramos para que fosse clara e de fácil compreensão).
 
 1. Instalar o docker na máquina (Utilizamos o Windows para tudo, então aqui o ideal é baixar o Docker Desktop).
 2. Verificar a instalação do Docker na máquina.
@@ -25,17 +25,49 @@ docker run --name my-pgadmin --network=my-network -p 15432:80 -e PGADMIN_DEFAULT
 
 7. Após isso, basta acessar no seu navegador com o seguinte endereço: <b> http://localhost:15432/ </b>
 
+8. Se apareceu essa tela abaixo, a instalação até agora ocorreu tudo bem. Nisso basta inserir nos campos, Email: emaildefault@gmail.com e na Senha: postgres. E realizar o login.
+
 ![image](https://github.com/user-attachments/assets/a3a3d75c-0b8f-4570-a374-a96af37698b1)
 
 
+9. Quando chegar nessa tela abaixo, basta clicar em Server->Register->Server.
+
+![image](https://github.com/user-attachments/assets/b9f1c3f8-cac3-4be8-bf81-fa7ad957b45a)
+
+10. Deixe esses campos preenchidos dessa forma abaixo:
+    
+![image](https://github.com/user-attachments/assets/f7b100f9-6d8e-4502-95a0-54c4f751bb09)
+
+11. E no próximo passo é em <b> Connection </b>, deixe os parametros assim também: (OBS: A password é postgres também).
+
+![image](https://github.com/user-attachments/assets/5886ad9d-fcb4-4528-b6a0-aa0caaf010a7)
+
+12. Após isso basta salvar e verá essa tela do seu docker aparecer configurada.
+
+![image](https://github.com/user-attachments/assets/9533e2d2-1445-487b-8b3d-1b9c7ba8a6a5)
+
+13. Para inserir e rodar nosso banco de dados, basta ir no database <b> Postgres </b>, clicar em <b> Restore </b> e abrir essa tela abaixo
+
+![image](https://github.com/user-attachments/assets/3c6b603b-8864-40d8-b72a-b265b1319d1f)
+
+14. Abrirá essa tela, clique no ícone de arquivo para abrir a tela e inserir o arquivo <b> JsonGerador.sql </b>. Recomendamos que baixe o arquivo através do disponibilizado no Github.
+
+![image](https://github.com/user-attachments/assets/090bca0b-6d6f-4010-8a1d-d6d0001d59d1)
+
+15. No próximo passo, clique nos 3 pontos ao lado no canto superior direito (...). E escolha a opção <b> Upload </b>.
+
+![Escolher o Upload](https://github.com/user-attachments/assets/1f64b0c1-6196-47f4-963f-1368e36520a7)
 
 
+16. Aparecerá essa tela abaixo, basta arrastar ou clicar em cima, para escolher o arquivo <b> JsonGerador.sql </b>.
 
+![Captura de tela 2024-07-13 221527](https://github.com/user-attachments/assets/0d9afb8d-d994-47fa-a7a4-3b612a3f697d)
 
+17. Após escolhido ele irá fazer um Upload do arquivo, espere o upload finalizar. Quando finalizar feche a aba do <b> Select File </b>, e clique novamente no ícone do arquivo para abrir novamente a tela de escolher o arquivo a ser restaurado. Logo ao abrir novamente, vai perceber que o arquivo foi upado. Nisso, basta clicar em cima dele e fazer o <b> Select </b>; Agora o nosso banco de dados será restaurado para o container <b> Postgres </b> dentro do Docker.
 
+![Captura de tela 2024-07-13 221439](https://github.com/user-attachments/assets/b0c462f3-a253-464c-91de-4f79dfec87de)
 
-
-
+19. Agora é só utilizar das nossas funções de seleção descrito abaixo!
 
 
 ## Documentação do CRUD Gerenciador de Usuários
