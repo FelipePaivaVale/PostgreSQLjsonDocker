@@ -159,6 +159,18 @@ Esta função retorna todos os registros de pessoas na tabela, mostrando
 todos os campos e todas as entradas. É útil para visualizar todas as pessoas
 cadastradas no sistema.
 
+```bash
+Selecionar pelo o telefone:
+
+SELECT * FROM select_pessoa_por_telefone('+55 (061) 7908 7806');
+```
+
+```bash
+Selecionar por endereço:
+
+SELECT * FROM select_pessoa_por_endereco_inicio('Viela Martins, 50');
+```
+
 - Cada uma dessas seleções oferece uma funcionalidade específica para manipular e
 visualizar os dados de pessoas dentro do sistema de Gerenciador de Usuários, facilitando a
 gestão e a consulta de informações conforme necessário.
