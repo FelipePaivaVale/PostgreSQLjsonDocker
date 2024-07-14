@@ -1,5 +1,6 @@
 ## Como inserir / Rodar o banco de dados em Docker. 
 - (Pedimos Desculpas se foi da maneira errada, mas foi a maneira que encontramos para que fosse clara e de fácil compreensão).
+- Caso a explicação abaixo continue confusa, esse foi o link de tutorial que nos baseamos: https://www.youtube.com/watch?v=CdoBvd_bPdk&t=433s;
 
 1. Instalar o docker na máquina (Utilizamos o Windows para tudo, então aqui o ideal é baixar o Docker Desktop).
 2. Verificar a instalação do Docker na máquina.
@@ -81,6 +82,11 @@ sistema de Gerenciador de Usuários, implementado com operações CRUD básicas
 em um banco de dados PostgreSQL.
 Tecnologias Utilizadas
 ● Banco de Dados: PostgreSQL JSON
+
+
+<b> Focamos em implementar a criação de grandes quantidades de dados em Json no Postgres. A partir disso, realizamos o CRUD básico do gerenciador de usuários.</b>
+
+
 
 ## Funcionalidades Implementadas:
 
