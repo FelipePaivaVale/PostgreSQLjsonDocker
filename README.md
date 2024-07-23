@@ -1,6 +1,17 @@
 ## Como inserir / Rodar o banco de dados em Docker. 
 - (Pedimos Desculpas se foi da maneira errada, mas foi a maneira que encontramos para que fosse clara e de fácil compreensão).
 - Caso a explicação abaixo continue confusa, esse foi o link de tutorial que nos baseamos: https://www.youtube.com/watch?v=CdoBvd_bPdk&t=433s;
+-Grupo Flamifogo da Gama:
+- <André Ricardo Magalhães da Silva>
+- <Erico Iago Borges Ramalho>
+- <Felipe de Paiva Vale>
+- <José Ivanilson Marinho da Silva>
+- <Leonardo Couto da Escóssia>
+- <Thiago Frank de Almeida da Silva>
+
+
+
+
 
 1. Instalar o docker na máquina (Utilizamos o Windows para tudo, então aqui o ideal é baixar o Docker Desktop).
 2. Verificar a instalação do Docker na máquina.
