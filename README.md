@@ -2,12 +2,12 @@
 - (Pedimos Desculpas se foi da maneira errada, mas foi a maneira que encontramos para que fosse clara e de fácil compreensão).
 - Caso a explicação abaixo continue confusa, esse foi o link de tutorial que nos baseamos: https://www.youtube.com/watch?v=CdoBvd_bPdk&t=433s;
 -Grupo Flamifogo da Gama:
-- <André Ricardo Magalhães da Silva>
-- <Erico Iago Borges Ramalho>
-- <Felipe de Paiva Vale>
-- <José Ivanilson Marinho da Silva>
-- <Leonardo Couto da Escóssia>
-- <Thiago Frank de Almeida da Silva>
+- André Ricardo Magalhães da Silva
+- Erico Iago Borges Ramalho
+- Felipe de Paiva Vale
+- José Ivanilson Marinho da Silva
+- Leonardo Couto da Escóssia
+- Thiago Frank de Almeida da Silva
 
 
 
